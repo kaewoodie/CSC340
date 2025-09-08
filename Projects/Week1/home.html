@@ -1,0 +1,39 @@
+/* 
+  Home: Displays a movable circle for the user to interact with
+  Author: Kae Woodie
+  Course: CSC 340 - 13489 - Javascript I
+  Version: 1.0 
+  
+  Instructions: Include main.js in an HTML document containing 
+  an element with an id of 'ball'. The script will detect when the 
+  left or rightarrow key is pressed and will move the ball element 
+  accordingly. 
+
+  Notes: Originally, I placed the script tag referencing main.js in the
+  header (as instructed), but the controls would not work upon load
+  due to the 'ball' having a null value. To fix this, I placed the 
+  script tag referencing main.js in the body after ball id is set.
+*/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- <script src="js/main.js"></script> -->
+    <title>Week 1 Project</title>
+    <style>
+      #ball {
+        background-color: red;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="ball"></div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
