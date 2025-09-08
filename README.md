@@ -1,2 +1,3 @@
 # CSC340
-Javascript I
+
+Notes for CSC 340 Javascript I
