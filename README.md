@@ -106,6 +106,7 @@ function refresh() {
 
 </details>
 
+
 ## :book: Week_02 Notes
 
 ### Week 2 Project: Creating Lists
