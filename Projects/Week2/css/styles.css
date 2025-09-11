@@ -1,0 +1,13 @@
+/* https://perishablepress.com/css-center-align-list-left-align-text/ */
+h1 {
+    text-align: center;
+}
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+ul {
+    display: inline-block;
+    text-align: left;
+}
